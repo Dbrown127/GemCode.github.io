@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> 
+    img{ 
+        margin: auto;
+        display:block
+    }
+    body {margin:auto;
+    text-align: center;}
+
+    </style>
+    <title>PRACTICE WITH THE BROS</title>  <!--Web browswer tab-->
+</head>
+<body style="background-color: darkkhaki;">
+    
+       <img src="Pastel Minimalist Thanksgiving Facebook Cover (1).png" 
+        alt="Fall background" 
+        width="432" lenth="216"
+         >
+
+        <H1 style="text-align: center ;"><strong>Thanksgiving Dinner Meal</strong></H1>  <!-- strong element = bold style-->  
+    
+    
+    <p> It's that time of the year everyone! What are you bringing to the family dinner table for Thanksgiving Dinner (informally called "Turkey Day")! </p>
+    <p> Sending you warm wishes from home to home and from heart to heart to wish you a very Happy Thanksgiving with an easy traditional menu.
+    
+                                                     <!--empty space/ no close tag-->
+        <hr size="4">                <!-- horizontal line: size is the line thickness-->    
+        <h3><strong>Dinner</strong></h3>
+        <ul><dl>         <!-- dl: discription list/ dt: decription term-->
+            <dt> - Macaroni and Cheese <em>(Not the WAP kind)</em></dt>
+                <dd> Crafted with mixed cheeses including Velveta, cheddar, and mixed cheeses </dd>
+            <dt> Stuffing with cranberry sauce</dt>
+            <dt> Devile Eggs <i>(AKA "Angel" eggs)</i></dt>
+            <dt> Turkey</dt>
+            <dt> Ham</dt>
+            <dt> Candied Yams with Marshmellos</dt>
+        </ul></dl>
+        <h3><strong>Dessert</strong></h3>
+        <ol>
+            <li> Pumpkin Pie</li>
+            <li> Apple Cobbler</li>
+            <li> Chocolate Pecan Pie</li>
+            <li> Sweet Potato Pie</li>
+        </ol>
+    </P>
+    
+</body>
+</html>

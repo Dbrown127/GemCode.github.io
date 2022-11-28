@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,800;1,200;1,300;1,500;1,700&display=swap');
+
+
+body{
+    margin-top: 0px;
+    font-family:  'Cardo', serif;
+    background-color: #FCFFE7;
+    /*Contents will be centered from left and right when 'auto'*/
+    margin-left: auto;
+    margin-right: auto;
+}
+#mainheader{
+    background: #DEA057;
+}
+#mainheader a{
+    text-decoration: none;
+    color:#FCFFE7;
+    margin: 20px;
+    line-height: 4;
+}
+nav {
+    height: 60px;
+    width:1000px;
+    /* top left/right bottom*/
+    margin:0px auto 20px;
+}
+ul{
+    list-style: none;
+    line-height:40px;
+}
+ul.ingredients li{
+    list-style-type: circle;
+    line-height: normal;
+}
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+nav>ul>li {
+    float:left;
+}
+.navlinks a{
+    text-decoration: none;
+    background: 
+    #7D9D9C;
+    color: #f2f4e7;
+    border-radius: 100px ;
+    padding: 5px; 
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.24), 0 8px 10px 0 rgba(0,0,0,0.19);
+}
+.navlinks a:hover{
+    
+    transition: ease-in-out .3s;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.24), 0 15px 30px 0 rgba(0,0,0,0.19);
+}
+
+#sidebar{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#leftmenu{
+    float: left;    /* floats to the left of parent*/
+    width: 30%;
+    margin-bottom: 20px;
+}
+.searchbox{
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+
+}
+#main{          /*parent block floating right*/
+    float:right;
+    width:70%;
+    margin-bottom: 4;
+    margin-bottom:0px 20px;
+}
+p{
+    color: #8E3200;
+    font-weight: 500;
+}
+h1{
+    font-size: 44px;
+    color:#CE9461 ;
+}
+#cheesecakes{
+    width: 500;
+    height: 300;
+}
+#imglogo{
+    width: 70px;
+    height:60px;   
+}
+#imgshop{
+    width: 300px;
+    margin-left: auto;
+}
+
+footer{
+clear: both;
+width: 100;
+text-align: center;
+padding-top: 20px;
+}
+footer a{
+    color: inherit;
+    font-family: inherit;
+}
+article a{
+    font-family: inherit;
+    color: inherit;
+
+}
+table{
+    table-layout: auto;
+    
+}
+table, td{
+   
+    border-collapse: collapse;
+    padding: 5px; /*spacing from the border*/
+    background: #f2f4e7;
+   
+}
+td{
+    margin: 20px;
+}
+thead{
+    background-color:#7D9D9C ; 
+    color: white;
+}
+.description{
+padding: 30px;
+margin-bottom: 30px
+}
+#favorite{
+    font-family: "Segoe UI Emoji";
+}
+.fav {
+    background: #F1A661;
+    border: none;
+    border-radius: 90px;
+    font-family: inherit;
+    padding: 5px;
+    font-weight: bold;
+    color: #FCFFE7;
+    margin-left: 70px;
+    transition: ease-in-out .3s;
+}
+button:hover{
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+

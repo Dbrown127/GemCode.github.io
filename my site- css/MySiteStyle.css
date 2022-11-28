@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,800;1,200;1,300;1,500;1,700&display=swap');
+
+
+/*Global settings*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+li,
+a,
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.top-container {
+    margin: auto;
+    text-align: center;
+    color: black;
+    background-color: #FFE1E1;
+}
+
+.top-container p,
+#title {
+    background-color: #FFE1E1;
+}
+
+#headshot {
+    width: 200px;
+    position: relative;
+    padding-top: 20px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.205));
+
+
+}
+
+hr {
+    border: none;
+    border-top: 3px dotted;
+    border-width: 4px;
+    color: rgb(58, 65, 98);
+    overflow: hidden;
+    text-align: center;
+    height: 5px;
+    width: 5%;
+    margin: auto;
+
+}
+
+h1 {
+    font-size: 45px;
+    word-spacing: 12px;
+    width: 100%;
+    padding-top: 30px;
+   
+}
+
+h2 {
+    word-spacing: 12px;
+    width: 100%;
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #829460;
+}
+
+/*header background & Title text*/
+
+.pro {
+    text-decoration: underline;
+}
+
+#imgland {
+    display: -webkit-flex;
+    width: 100%;
+    position: relative;
+    left: 0;
+    background-color: #FFE1E1;
+    box-shadow: 10px 10px 5px  rgba(34, 34, 34, 0.249);
+}
+
+middle-container {
+    background-color: #829460;
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #FFE1E1;
+    border-bottom: 8px dotted #EEEEEE;
+}
+.navlinks {
+    list-style: none;
+
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a:hover {
+    transition: all .3s ease 0s;
+    color: #829460;
+}
+.navlinks a{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.205));
+}
+
+.navlinks li a:hover {
+    transition: all .3s ease 0s;
+    color: #829460;
+}
+
+.ctamsg {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.cta button {
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+.cta button:hover {
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 9px 25px;
+    margin-left: 20px;
+}
+
+.btn button {
+    padding: 9px 25px;
+    background-color: #829460;
+    border: none;
+    border-radius: 90px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn button:hover {
+    padding: 9px 25px;
+    background-color: #4f5a08;
+    border: none;
+    border-radius: 90px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+/* Parent */
+.skillsrow {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.skillsrow h2 {
+    text-align: center;
+}
+
+.contact {
+    width: 50%;
+    margin: 50px auto 80px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.imgcreative {
+    float: left;
+    margin-right: 30px;
+
+}
+.projects ul, li{
+    list-style-image: url('..\my site- images\Favicon Logo\android-chrome-192x192.png');
+    list-style-position: outside;
+    color: #829460 ;
+}
+.projects a{
+    color: black;
+
+
+}
+#bottom-container {
+
+    color: #EEEEEE;
+    background-color: #829460;
+    text-align: center;
+
+}
+.imgphotoshop {
+    float: left;
+    margin-right: 30px;
+
+}
+.footerlinks a {
+    color: #566240;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.imglogo {
+    cursor: pointer;
+    margin-right: auto;
+    width: 5%;
+}

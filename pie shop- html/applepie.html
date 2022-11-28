@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Diamond's Royal Pie Shop">
+    <meta name="description" content="Store front for Diamond's Pie Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="..\pie shop- images\pie logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="StylePieShop.css">
+    <title>Mama's Pie Shop: Apple Pie Description</title>
+
+    <script>
+        /* declaring save() function globally */
+        function save() {
+            localStorage.setItem("applepie", true);
+            alert("You've Saved Apple pie as your favorite!");
+        }
+
+        window.onload = function () {
+            var favorite1 = document.getElementById('favorite'); /*document object:span id= 'favorite*/
+            if (window.localStorage) {
+                var storage1 = window.localStorage;
+                if (storage1.getItem('applepie') == 'true')
+                 {
+                    favorite1.innerHTML = " \u2764 Saved"; 
+            }
+           
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header id="mainheader">
+        <nav>
+            <ul>
+           <li><img id="imglogo" src="..\pie shop- Images\pie logo192x192.png" alt="pie logo"></li>
+           <li><a href="..\pie shop- html\index.html">Home</a></li>
+          <li> <a href="..\pie shop- html\pieoverview.html">All pies</a></li>
+          <li><a href="..\pie shop- html\about.html">About</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <div id="sidebar">    <!-- layout element. Contains elements-->
+        <aside id="leftmenu">
+            <a href="..\pie shop- html\index.html"><img id="imgshop" src="..\pie shop- Images\pie shop.png" alt="pie shop logo"></a>
+            <header>
+                <h4 style="text-align: center;">Browse our Gallery</h4>
+            </header>
+            <ul class="navlinks">
+                <li><a href="..\pie shop- html\pieoverview.html">All pies</a></li>
+                <li><a href="..\pie shop- html\cheesecakes.html">Cheese cakes</a></li>
+                <li><a href="..\pie shop- html\fruitpies.html">Fruit pies</a></li>
+                <li><a href="..\pie shop- html\seasonalpies.html">Seasonal pies</a></li>
+            </ul>
+            <input type="search" class="searchbox" placeholder="Search our store">
+        </aside>
+        <main id="main">
+            <header>
+                <h1 style="font-size:35px;">Apple pie</h1>
+            </header>
+            <figure>
+                <img src="https://www.jessicagavin.com/wp-content/uploads/2020/10/apple-pie-5-1200.jpg" width="600"
+                    alt="Apple pie" />
+                <figcaption>Our world-famous apple pie</figcaption>
+            </figure>
+
+            <p> <!--onclick invokes save() javascript code-->
+                <button class="fav" onclick="save()">Favorite</button>
+                <span id="favorite"> </span>
+            </p>
+
+            <div class="description" style="background-color:#f8f4f1;">
+                <strong>Price: $12.95</strong>
+                <h2>Description</h2>
+                <p>
+                    Martha received the recipe for this delicious apple pie from her grandmother. At the age of 5,
+                    she
+                    was
+                    already baking this <em>all-American traditional apple</em> pie at her home.
+                    As the recipe goes a long way back, it contains the most typical ingredients used for so many
+                    years
+                    to
+                    make this classic even today one of our most popular pies.
+                </p>
+                <p>
+                    This pie is available <strong>every day</strong> and comes in 2 sizes. <span
+                        style="color:#4dcfa8; font-weight:bold ;">You can serve it cold or warm it for 4 minutes
+                        in
+                        the microwave to give it an extra touch. </span>Your house will smell just like Martha's
+                    Shop!
+                </p>
+                <p>
+                <blockquote>
+                    This recipe has been in our family for generations. We hope you enjoy this pie as we do -
+                    Martha
+                </blockquote>
+                </p>
+
+                <p><small>Note that some ingredients make be are dangerous if you have certain allergies. See the
+                        list
+                        of ingredients below.</small></p>
+                <p><small>Martha cares about the environment and we try to limit our CO<sub>2</sub> emissions as
+                        much
+                        as possible. See our terms page for more info.</small></p>
+                <hr>
+
+                <h2>How we make this pie</h2>
+                <ol>
+                    <li>
+                        First, we combine sugar, flour and spices. We toss the apples with some lemon juice and add
+                        sugar.
+                    </li>
+                    <li>We then create the bottom crust and fill that with apple mixture. We put some butter on
+                        that. We
+                        then roll remaining crust to fit top of pie.
+                    </li>
+                    <li>Then we beat the eggs white until we have a foamy mix. That is then brushed over the crust.
+                        We
+                        sprinkle some extra sugar.
+                    </li>
+                    <li>Then the pie goes into the oven at 360° for 35 minutes. When ready, we let it cool on a wire
+                        rack.
+                    </li>
+                </ol>
+
+                <ol start=5>
+                    <li>If something goes wrong, we start all over again!</li>
+                </ol>
+
+                <h3>Ingredients</h3>
+                <p>Please note that this item contains the following items and possible allergens!</p>
+                <ul class="ingredients">
+                    <li>Butter</li>
+                    <li>Eggs</li>
+                    <li>Sugar</li>
+                    <ul>
+                        <li>Regular sugar</li>
+                        <li>Brown sugar</li>
+                        <li>Caster sugar</li>
+                    </ul>
+                    <li>Flour</li>
+                    <li>Cinnamon</li>
+                    <li>Ginger</li>
+                    <li>Nutmeg</li>
+                    <li>Apples</li>
+                    <li>Lemons</li>
+                </ul>
+            </div>
+            </article>
+        </main>
+        <footer>
+            <p>Our address is <address>Mama's Pie Shop- Bakery Street 1947 Memphis, TN</address> </p>
+            <p>Contact us via <a href="mailto:dbrown@xpanxion.com">Gemcode@gmail.com</a>
+            <address><a href="https://dbrown127.github.io"> Gem Code Website</a></address></p>
+            <small> &copy;2022 Mama's Pie Shop - All rights reserved </small>
+        </footer>
+    </div>
+</html>

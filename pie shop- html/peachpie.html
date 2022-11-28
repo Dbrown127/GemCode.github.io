@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Diamond's Royal Pie Shop">
+    <meta name="description" content="Store front for Diamond's Pie Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="..\pie shop- images\pie logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="StylePieShop.css">
+    <title>Mama's Pie Shop: Peach Pie Description</title>
+
+    <script>
+        /* declaring save() function globally */
+        function save() {
+            localStorage.setItem("applepie", true);
+            alert("Youve Saved Apple pie as your favorite!");
+        }
+
+        window.onload = function () {
+            var favorite1 = document.getElementById('favorite'); /*document object:span id= 'favorite*/
+            if (window.localStorage) {
+                var storage1 = window.localStorage;
+                if (storage1.getItem('applepie') == 'true')
+                 {
+                    favorite1.innerHTML = " \u2764 Saved"; 
+            }
+           
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header id="mainheader">
+        <nav>
+            <ul>
+           <li><img id="imglogo" src="..\pie shop- Images\pie logo192x192.png" alt="pie logo"></li>
+           <li><a href="..\pie shop- html\index.html">Home</a></li>
+          <li> <a href="..\pie shop- html\pieoverview.html">All pies</a></li>
+          <li><a href="..\pie shop- html\about.html">About</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <div id="sidebar">    <!-- layout element. Contains elements-->
+        <aside id="leftmenu">
+            <a href="..\pie shop- html\index.html"><img id="imgshop" src="..\pie shop- Images\pie shop.png" alt="pie shop logo"></a>
+            <header>
+                <h4 style="text-align: center;">Browse our Gallery</h4>
+            </header>
+            <ul class="navlinks">
+                <li><a href="..\pie shop- html\pieoverview.html">All pies</a></li>
+                <li><a href="..\pie shop- html\cheesecakes.html">Cheese cakes</a></li>
+                <li><a href="..\pie shop- html\fruitpies.html">Fruit pies</a></li>
+                <li><a href="..\pie shop- html\seasonalpies.html">Seasonal pies</a></li>
+            </ul>
+            <input type="search" class="searchbox" placeholder="Search our store">
+        </aside>
+        <main id="main">
+
+            <header>
+                <h1 style="font-size:35px;">Peach pie</h1>
+            </header>
+            <figure>
+               <img src="..\pie shop- Images\ginger-peach-pie.jpg"
+                        width="600">
+                <figcaption>Our world-famous sweet peach pie. (Source: <a style="color: black" href="https://sallysbakingaddiction.com/peach-pie-recipe/">Perfect Peach Pie Recipe</a>)</figcaption>
+            </figure>
+
+            <p> <!--onclick invokes save() javascript code-->
+                <button class="fav" onclick="save()">Favorite</button>
+                <span id="favorite"> </span>
+            </p>
+
+            <div class="description" style="background-color:#f8f4f1;">
+                <strong>Price: $18.95</strong>
+                <h2>Description</h2>
+                <p>From the buttery flaky pie crust to the juicy cinnamon-spiced peach filling, there’s no doubt this will be the best peach pie you’ll ever eat. Taste testers and fans have loved this recipe for as long as Martha can remember. Which each slice is bursting with peaches that hold their texture. A little fresh ginger for extra flavor is highly recommened! Don’t forget the vanilla ice cream!
+                </p>
+                <p>
+                    This pie is available <strong>every day</strong> and comes in 2 sizes. <span
+                        style="color:#4dcfa8; font-weight:bold ;">You can serve it cold or warm it for 4 minutes in the microwave to give it an extra touch. </span>Your house will smell just like Martha's Shop!
+                </p>
+                <p>
+                    <blockquote>
+                        This recipe has been in our family for generations. We hope you enjoy this pie as we do -
+                        Martha
+                    </blockquote>
+                    </p>
+    
+                    <p><small>Note that some ingredients make be are dangerous if you have certain allergies. See the
+                            list
+                            of ingredients below.</small></p>
+                    <p><small>Martha cares about the environment and we try to limit our CO<sub>2</sub> emissions as
+                            much
+                            as possible. See our terms page for more info.</small></p>
+                    <hr>
+    
+                    <h2>How we make this pie</h2>
+                    <ol>
+                        <li><span style="font-weight:bold">The crust:</span> We prepare either pie crust recipe through step 5.</li>
+                        <li><span style="font-weight:bold">Prep the peaches:</span> We peel the peaches and then cut into 1-inch chunks. We need about 8 cups of peach chunks, which is around 1.4kg. Cover and refrigerate until ready to make the filling. </li>
+                        <li>In a large bowl, stir the peach chunks, granulated sugar, flour, lemon juice, ginger, and cinnamon together until thoroughly combined. Set filling in the refrigerator.</li>
+                        <li>Adjust the oven rack to the lower third position and preheat to 425°F (218°C).</li>
+                        <li><span style="font-weight:bold">Roll out the chilled pie dough:</span> out the chilled pie dough: On a floured work surface, roll out one of the discs of chilled dough (keep the other one in the refrigerator). Set aside at room temperature or in the refrigerator as we assemble the top pie crust.</li>
+                        <li><span style="font-weight:bold">Arrange the lattice:</span> Remove the other disc of chilled pie dough from the refrigerator. Roll the dough into a circle that is 12 inches diameter.Carefully thread the strips over and under one another, pulling back strips as necessary to weave. </li>
+                        <li>Bake the pie on the center rack at 425°F for 20 minutes; then, keeping the pie in the oven, reduce the oven temperature down to 375° (190°C).</li>
+                        <li>Remove pie from the oven, place on a cooling rack, and cool for at least 4 hours before slicing and serving.</li>
+                    </ol>
+                    <h3>Ingredients</h3>
+                <p>Please note that this item contains the following items and possible allergens!</p>
+                <ul class="ingredients">
+                    <li>Butter</li>
+                    <li>Eggs</li>
+                    <li>Granulated Sugar</li>
+                    <ul>
+                        <li>Regular sugar</li>
+                    </ul>
+                    <li>Homemade Pie Crust</li>
+                    <li>All-purpose Flour</li>
+                    <li>Cinnamon</li>
+                    <li>Fresh Ginger (Optional)</li>
+                    <li>Butter</li>
+                    <li>Peaches</li>
+                    <li>Lemon Juice</li>
+                </ul>
+            </div>
+            </article>
+        </main>
+        <footer>
+            <p>Our address is <address>Mama's Pie Shop- Bakery Street 1947 Memphis, TN</address> </p>
+            <p>Contact us via <a href="mailto:dbrown@xpanxion.com">Gemcode@gmail.com</a>
+            <address><a href="https://dbrown127.github.io"> Gem Code Website</a></address></p>
+            <small> &copy;2022 Mama's Pie Shop - All rights reserved </small>
+        </footer>
+    </div>
+</html>
